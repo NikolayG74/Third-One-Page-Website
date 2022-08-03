@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: source sans pro;
+}
+
+/*Header*/
+
+.phone__number {
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+
+.logo {
+  margin-left: 4rem;
+  margin-top: 3rem;
+}
+
+.header__menus {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  width: 62rem;
+  margin-top: -1.8rem;
+  margin-left: 30rem;
+}
+
+.donate {
+  color: orangered;
+  border: solid 2px red;
+  padding: 10px 10px;
+  margin-top: -13px;
+}
+
+/*Donate Section*/
+
+.donate__section__img {
+  display: block;
+  margin-top: 2rem;
+  max-width: 100%;
+}
+
+.donate__content {
+  display: grid;
+  position: relative;
+  background: rgb(237, 106, 25);
+  color: white;
+  margin-top: -16rem;
+  height: 15rem;
+  text-align: center;
+}
+
+.donate__titlle {
+  padding-top: 3rem;
+  font-size: 28px;
+  padding-right: 5rem;
+}
+
+.donate__text {
+  margin-bottom: 5rem;
+  width: 30rem;
+  padding-left: 30rem;
+  font-size: 17px;
+}
+
+.donate__btn {
+  position: absolute;
+  width: 15rem;
+  height: 3rem;
+  margin-left: 38rem;
+  margin-top: -4.4rem;
+  color: white;
+  background-color: transparent;
+  border: solid 3px white;
+  cursor: pointer;
+}
+
+/*Featured Causes Section*/
+
+.featured__titlle {
+  display: block;
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.featured__title__logo {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 5rem;
+  margin-left: 43.5rem;
+  justify-content: space-around;
+  width: 8rem;
+}
+
+.featured__text {
+  display: block;
+  text-transform: uppercase;
+  width: 44rem;
+  text-align: center;
+  margin-left: 25rem;
+  margin-top: -50px;
+  line-height: 2;
+}
+
+/*Education Grid*/
+
+.education__grid {
+  display: grid;
+  width: 17rem;
+  margin-left: 15rem;
+  margin-top: 3rem;
+}
+
+.education__grid__titlle {
+  text-align: left;
+  padding-top: 25px;
+  font-weight: 600;
+}
+
+.education__text {
+  width: 17rem;
+  padding-top: 14px;
+}
+
+/*Food Grid*/
+
+.food__grid {
+  display: grid;
+  width: 17rem;
+  margin-left: 34rem;
+  margin-top: -19.6rem;
+
+}
+
+.food__grid__titlle {
+  text-align: left;
+  padding-top: 25px;
+  font-weight: 600;
+}
+
+.food__text {
+  width: 17rem;
+  padding-top: 14px;
+}
+
+
+/*Child Grid*/
+
+.child__grid {
+  display: grid;
+  width: 17rem;
+  margin-left: 53rem;
+  margin-top: -19.6rem;
+}
+
+.child__grid__titlle {
+  text-align: left;
+  padding-top: 25px;
+  font-weight: 600;
+}
+
+.child__text {
+  width: 17rem;
+  padding-top: 14px;
+}
+
+/*Homes Grid*/
+
+.homes__grid {
+  display: grid;
+  width: 17rem;
+  margin-left: 72rem;
+  margin-top: -19.6rem;
+}
+
+.homes__grid__titlle {
+  text-align: left;
+  padding-top: 25px;
+  font-weight: 600;
+}
+
+.homes__text {
+  width: 17rem;
+  padding-top: 14px;
+}
+
+/*Middle Grid Section*/
+
+.middle__grid {
+  display: grid;
+  background-color: rgb(33, 31, 31);
+  margin-top: 8rem;
+  margin-bottom: 15rem;
+}
+
+.middle__grid__img {
+  width: 50rem;
+  position: relative;
+}
+
+.middle__title {
+  display: block;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: -25rem;
+  margin-left: 42rem;
+}
+
+.middle__title__line {
+  margin-left: 55rem;
+  margin-top: -22rem;
+}
+
+.middle__grid__text {
+  color: gray;
+  width: 33%;
+  text-align: left;
+  margin-left: 55rem;
+  margin-top: -19rem;
+}
+
+
+.middle__grid__btn {
+  color: white;
+  background-color: transparent;
+  border: solid 2px white;
+  width: 11rem;
+  height: 3rem;
+  margin-left: 63rem;
+  margin-top: -7rem;
+  cursor: pointer;
+}
+
+/*Featured News Section*/
+
+
+
+.featured__news__title {
+  display: block;
+  position: absolute;
+  font-size: 24px;
+  margin-top: -8rem;
+  margin-left: 12rem;
+  text-transform: uppercase;
+}
+
+.news__orange__line {
+  position: absolute;
+  margin-top: -6rem;
+  margin-left: 12rem;
+}
+
+/*Organized Food Sections*/
+
+.organized__food {
+  display: flex;
+  margin-left: 6rem;
+  margin-top: -2rem;
+}
+
+.organized__title {
+  display: flex;
+  margin-left: 3rem;
+  margin-top: -2rem;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 13rem;
+}
+
+.organized__text {
+  display: flex;
+  width: 15.2rem;
+  margin-top: 2rem;
+  margin-left: -13rem;
+}
+
+.organized__food__2 {
+  display: flex;
+  margin-left: 6rem;
+  margin-top: 1rem;
+}
+
+.organized__title__2 {
+  display: flex;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 13rem;
+}
+
+.organized__text__2 {
+  display: flex;
+  width: 15.2rem;
+  margin-top: 5rem;
+  margin-left: -13rem;
+}
+
+/*Upcoming Event Section*/
+
+.upcoming__event {
+  display: block;
+  position: relative;
+  text-align: right;
+  margin-top: -30rem;
+  margin-right: 33rem;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.event__orange__line {
+  margin-right: 8rem;
+}
+
+.event__img {
+  display: block;
+  margin-left: 51rem;
+  margin-top: 2rem;
+  width: 38vw;
+}
+
+.event__info {
+  display: block;
+  color: gray;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-left: 25rem;
+}
+
+.event__title {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 34.5rem;
+  margin-top: 1rem;
+}
+
+.event__text {
+  display: block;
+  text-align: left;
+  margin-left: 51rem;
+  margin-top: 1rem;
+  width: 520px;
+}
+
+/*Footer*/
+
+.footer {
+  display: grid;
+  background-color: rgb(33, 31, 31);
+  margin-top: 5rem;
+  height: 20rem;
+}
+
+/*Footer About*/
+
+.about__title {
+  color: white;
+  margin-left: 12rem;
+  margin-top: 2rem;
+}
+
+.about__content {
+  color: gray;
+  width: 17rem;
+  margin-left: 12rem;
+  margin-top: 1.5rem;
+  line-height: 1.5;
+}
+
+/*Footer Links*/
+
+.links__title {
+  text-align: center;
+  color: white;
+  margin-top: -11.8rem;
+  margin-right: 24rem;
+}
+
+.links__content {
+  color: gray;
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: 32.8rem;
+  padding-top: 1rem;
+}
+
+/*NewsLetter Signup Section*/
+
+.newsletter__title {
+  color: white;
+  text-align: center;
+  margin-top: -12.2rem;
+  margin-left: 18rem;
+}
+
+.newsletter__content {
+  color: gray;
+  width: 17rem;
+  margin-left: 52rem;
+  margin-top: 1.5rem;
+  line-height: 2;
+}
+
+/*Footer Contact Section*/
+
+.footer__contact {
+  color: white;
+  text-align: right;
+  margin-top: -8.8rem;
+  margin-right: 17rem;
+}
+
+.footer__contact__content {
+  color: gray;
+  width: 17rem;
+  margin-left: 73.5rem;
+  margin-top: 1.5rem;
+  line-height: 2;
+}
+
+/*Footer Copyrights Section*/
+
+.footer__copyright {
+  display: flex;
+  background-color: black;
+  margin-bottom: 15rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  justify-content: center;
+}
+
+.footer__copyright__content {
+  color: gray;
+}
+
+.theme__designer {
+  display: block;
+  color: white;
+  text-align: right;
+  margin-right: -7rem;
+  margin-top: -1.2rem;
+  margin-bottom: 1rem;
+}
